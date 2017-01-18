@@ -28,7 +28,7 @@ $(document).ready(function() {
     var url = api + queryParams + cb;
     var queryParams = $('input').val()
     $.ajax({
-      dataType: "json",
+      dataType: "jsonp",
       url: url
     }).done(function(res) {
       console.log(res);
