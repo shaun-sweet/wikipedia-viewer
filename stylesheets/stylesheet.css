@@ -64,7 +64,8 @@ header {
   background: #34495E url("../imgs/small-glass.png") no-repeat 95% 50%;
   font-size: 2em;
   border-radius: 6px;
-  display: none; }
+  display: none;
+  color: #ECF0F1; }
 
 #mag-glass {
   margin-top: 2em;
