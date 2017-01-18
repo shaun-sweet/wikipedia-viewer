@@ -25,9 +25,16 @@ $(document).ready(function() {
   }
 
   function wikiAjaxCall() {
+    var url = api + queryParams + cb;
     var queryParams = $('input').val()
-    $.getJSON(api + queryParams + cb, function(res) {
+    $.ajax({
+      dataType: "json",
+      url: url
+    }).done(function(res) {
       console.log(res);
-    })
+    });
+    // $.getJSON(api + queryParams + cb, function(res) {
+    //
+    // })
   }
 });
