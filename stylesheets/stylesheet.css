@@ -36,7 +36,8 @@ table {
     height: 100%; }
 
   body {
-    min-height: 100vh; }
+    min-height: 100vh;
+    background-color: green; }
 
   html, body {
     display: flex;
