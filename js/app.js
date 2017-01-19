@@ -35,7 +35,6 @@ $(document).ready(function() {
       dataType: "jsonp",
       url: url
     }).done(function(res) {
-      console.log(res);
       for (var entry in res.query.pages) {
         var title = res.query.pages[entry].title;
         var body = res.query.pages[entry].extract;

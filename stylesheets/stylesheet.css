@@ -112,7 +112,6 @@ header {
     text-align: center; }
 
 #search-query {
-  padding: 1em;
   border: none;
   width: 50%;
   background: #34495E url("../imgs/smaller-glass.png") no-repeat 95% 50%;
