@@ -67,6 +67,18 @@ header {
   display: none;
   color: #ECF0F1; }
 
+.wiki-entries {
+  width: 50%;
+  border-radius: 6px;
+  background: #34495E;
+  padding: 0.5em;
+  margin: 1em; }
+  .wiki-entries h3 {
+    font-size: 2em;
+    margin: 0.5em; }
+  .wiki-entries p {
+    margin: 1em; }
+
 #mag-glass {
   margin-top: 2em;
   cursor: pointer; }
